@@ -8,7 +8,7 @@ const spendingsService = new SpendingsService()
 const bot = new Telegraf(process.env.TOKEN)
 
 bot.on('message',(ctx, next) =>{
-    if (ctx.message.chat.id === process.env.TELEGRAM_ID) {
+    if (ctx.message.chat.id === parseInt(process.env.TELEGRAM_ID)) {
         next()
     } else {
         ctx.reply('Ты не можешь пользоваться этим ботом')
