@@ -1,0 +1,18 @@
+{
+  "entertainment": {
+    "limit": 1000,
+    "expenses": 0
+  },
+  "extra": {
+    "limit": 1000,
+    "expenses": 0
+  },
+  "transport": {
+    "limit": 1000,
+    "expenses": 0
+  },
+  "food": {
+    "limit": 1000,
+    "expenses": 0
+  }
+}
