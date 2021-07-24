@@ -5,10 +5,10 @@ const SpendingsService = require('./Service/SpendingsService')
 global.appRoot = path.resolve(__dirname);
 
 const spendingsService = new SpendingsService()
-const bot = new Telegraf("1903273801:AAElhHTN1BlvozC1rgnR9LmXaOxVqbt6T3E")
+const bot = new Telegraf(process.env.TOKEN)
 
 bot.on('message',(ctx, next) =>{
-    if (ctx.message.chat.id === 157168307) {
+    if (ctx.message.chat.id === process.env.TELEGRAM_ID) {
         next()
     } else {
         ctx.reply('Ты не можешь пользоваться этим ботом')
