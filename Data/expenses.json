@@ -1,18 +1,35 @@
 {
   "entertainment": {
     "limit": 1000,
-    "expenses": 0
+    "expenses": 0,
+    "displayName": "Развлечения",
+    "abbreviations": [
+      "разв"
+    ]
   },
   "extra": {
     "limit": 1000,
-    "expenses": 0
+    "expenses": 0,
+    "displayName": "Резерв",
+    "abbreviations": [
+      "ост"
+    ]
   },
   "transport": {
     "limit": 1000,
-    "expenses": 0
+    "expenses": 0,
+    "displayName": "Транспорт",
+    "abbreviations": [
+      "транс",
+      "транспорт"
+    ]
   },
   "food": {
     "limit": 1000,
-    "expenses": 0
+    "expenses": 0,
+    "displayName": "Еда",
+    "abbreviations": [
+      "еда"
+    ]
   }
 }

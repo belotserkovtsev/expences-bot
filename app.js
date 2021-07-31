@@ -35,6 +35,11 @@ bot.command('items', ctx => {
     ctx.reply(message)
 })
 
+bot.command('cancel', ctx => {
+    const message = spendingsService.cancelLastOperation()
+    ctx.reply(message)
+})
+
 bot.launch().catch(e => {
     console.log(e.message)
 })
